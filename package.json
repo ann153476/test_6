@@ -1,0 +1,23 @@
+{
+  "name": "test_6",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://ann153476.github.io/test_6",
+  "scripts": {
+    "start": "parcel src/*.html",
+    "build": "parcel build src/*.html --public-url /test_5/"
+  },
+  "keywords": [],
+  "author": "Hanna Zaichenko <ann153476@gmail.com>",
+  "license": "ISC",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "dependencies": {
+    "modern-normalize": "^1.1.0",
+    "sass": "^1.62.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.8.3",
+    "parcel": "^2.8.3",
+    "posthtml-include": "^1.7.4"
+  }
+}
