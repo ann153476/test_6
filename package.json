@@ -5,7 +5,7 @@
   "homepage": "https://ann153476.github.io/test_6",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /test_5/"
+    "build": "parcel build dist/index.html --public-url /test_5/"
   },
   "keywords": [],
   "author": "Hanna Zaichenko <ann153476@gmail.com>",
